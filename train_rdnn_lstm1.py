@@ -23,7 +23,7 @@ class MyDataset(Dataset):
         return len(self.X)
 
 
-# 定义GRU网络
+
 class lstmModel(nn.Module):
     def __init__(self, input_size, hidden_size, output_size):
         super().__init__()
